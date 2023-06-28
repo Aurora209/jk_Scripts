@@ -535,6 +535,16 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Env: jd_shop_draw_ids
+  KeyWord:
+  - - jd_shop_draw_ids
+  - - DPCJID
+  Name: 【环境】店铺抽奖
+  Script: jd_shop_draw.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
   Env: jd_joinCommonId
   KeyWord:
   - - jd_joinCommonId
