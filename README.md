@@ -25,13 +25,14 @@ requests
 ~~~
 
 ##  脚本来源：  
-[WALL.E 脚本仓库] (https://github.com/walle1798/WALL.E)
-[KR脚本仓库] (https://github.com/KingRan/KR) 
-[faker2脚本仓库] (https://github.com/shufflewzc/faker2/)  
-[保护环境]（https://github.com/feverrun/my_scripts/）
+[WALL.E 脚本仓库] (https://github.com/walle1798/WALL.E) </br>
+[KR脚本仓库] (https://github.com/KingRan/KR) </br>
+[faker2脚本仓库] (https://github.com/shufflewzc/faker2/) </br>
+[保护环境]（https://github.com/feverrun/my_scripts/）</br>
 
 ##  船长仓库直接拉区，未集成
-[船长] (https://github.com/HarbourJ/HarbourToulu)
+[船长] (https://github.com/HarbourJ/HarbourToulu) </br>
+
 拉库：
 ~~~
 ql repo https://github.com/HarbourJ/HarbourToulu.git "jd_" "activity|backUp|jd_sign" "^jd[^_]|USER|utils|ZooFaker_Necklace|JDJRValidator_|sign_graphics_validate|jddj_cookie|function|ql|magic|JDJR|JD|sendNotify" "main"
