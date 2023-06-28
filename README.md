@@ -27,8 +27,8 @@ requests
 ##  脚本来源：  
 [WALL.E 脚本仓库] (https://github.com/walle1798/WALL.E) </br>
 [KR脚本仓库] (https://github.com/KingRan/KR) </br>
-[faker2脚本仓库] (https://github.com/shufflewzc/faker2/) </br>
-[保护环境]（https://github.com/feverrun/my_scripts/）</br>
+[faker2脚本仓库] (https://github.com/shufflewzc/faker2) </br>
+[保护环境]（https://github.com/feverrun/my_scripts）</br>
 
 ##  船长仓库直接拉区，未集成
 [船长] (https://github.com/HarbourJ/HarbourToulu) </br>
