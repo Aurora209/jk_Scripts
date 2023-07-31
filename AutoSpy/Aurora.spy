@@ -444,9 +444,9 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Env: LUCK_DRAW_UR
+  Env: LUCK_DRAW_URL
   KeyWord:
-  - - LUCK_DRAW_UR
+  - - LUCK_DRAW_URL
   Name: 【Faker】店铺抽奖
   Script: jd_luck_draw.js
   TimeOut: 0
