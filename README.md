@@ -40,5 +40,5 @@ ql repo https://github.com/HarbourJ/HarbourToulu.git "jd_" "activity|backUp|jd_s
 
 ##  AuroSpy 订阅监听配置文件
 ~~~
-spy 订阅 添加 Auorra=https://github.com/Aurora209/jk_Scripts/blob/main/AutoSpy/Aurora.spy
+spy 订阅 添加 Aurora=https://github.com/Aurora209/jk_Scripts/blob/main/AutoSpy/Aurora.spy
 ~~~
