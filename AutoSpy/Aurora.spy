@@ -684,6 +684,15 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Env: jd_drawShopGift_argv
+  KeyWord:
+  - - jd_drawShopGift_argv
+  Name: 【CSJ】店铺关注有礼
+  Script: jd_drawShopGift.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
   Env: jd_cjhydz_microDz_Id
   KeyWord:
   - - jd_cjhydz_microDz_Id
