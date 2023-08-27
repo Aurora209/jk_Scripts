@@ -693,6 +693,24 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Env: jd_fansDraw_activityUrl
+  KeyWord:
+  - - jd_fansDraw_activityUrl
+  Name: 【CSJ】粉丝福利红包
+  Script: jd_fansDraw.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_shopLottery_activityUrl
+  KeyWord:
+  - - jd_shopLottery_activityUrl
+  Name: 【CSJ】店铺刮刮乐
+  Script: jd_shop_lottery.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
   Env: jd_cjhydz_microDz_Id
   KeyWord:
   - - jd_cjhydz_microDz_Id
