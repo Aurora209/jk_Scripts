@@ -213,7 +213,7 @@ js_config:
   Env: jd_lzkj_loreal_sign_url
   KeyWord:
   - - jd_lzkj_loreal_sign_url
-  Name: 【CSJ】签到抽奖（超级无线欧莱雅）
+  Name: 【CSJ】签到抽奖（超级无线）
   Script: jd_lzkj_loreal_sign.js
   TimeOut: 0
   Wait: 5
@@ -507,7 +507,7 @@ js_config:
   Env: jd_lzkj_loreal_perfectInfo_url
   KeyWord:
   - - jd_lzkj_loreal_perfectInfo_url
-  Name: 【CSJ】完善有礼（超级无线欧莱雅）
+  Name: 【CSJ】完善有礼（超级无线）
   Script: jd_lzkj_loreal_perfectInfo.js
   TimeOut: 0
   Wait: 5
@@ -536,6 +536,42 @@ js_config:
   - - jd_shopLottery_activityUrl
   Name: 【CSJ】店铺刮刮乐
   Script: jd_shop_lottery.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_lzkj_loreal_dailyGrabs_url
+  KeyWord:
+  - - jd_lzkj_loreal_dailyGrabs_url
+  Name: 【CSJ】每日抢好礼（超级无线）
+  Script: jd_lzkj_loreal_dailyGrabs.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_lzkj_loreal_know_url
+  KeyWord:
+  - - jd_lzkj_loreal_know_url
+  Name: 【CSJ】知识超人（超级无线）
+  Script: jd_lzkj_loreal_know.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_lzkj_loreal_organizeTeam_url
+  KeyWord:
+  - - jd_lzkj_loreal_organizeTeam_url
+  Name: 【CSJ】组队瓜分奖品（超级无线）
+  Script: jd_lzkj_loreal_organizeTeam.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_lzkj_loreal_share_url
+  KeyWord:
+  - - jd_lzkj_loreal_share_url
+  Name: 【CSJ】分享有礼（超级无线）
+  Script: jd_lzkj_loreal_share.js
   TimeOut: 0
   Wait: 5
 - Container:
