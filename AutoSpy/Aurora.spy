@@ -723,15 +723,6 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Env: jd_lzkj_wxCollectionActivityId
-  KeyWord:
-  - - jd_lzkj_wxCollectionActivityId
-  Name: 【Faker】lzkj加购物车抽奖
-  Script: jd_lzkj_wxCollectionActivity.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
   Env: jd_cjhy_wxCollectionActivityId
   KeyWord:
   - - jd_cjhy_wxCollectionActivityId
@@ -746,15 +737,6 @@ js_config:
   - - jd_lzkj_wxShopFollowActivity_activityId
   Name: 【Faker】lzkj关注店铺有礼
   Script: jd_lzkj_wxShopFollowActivity.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Env: jd_cjhy_wxShopFollowActivity_activityId
-  KeyWord:
-  - - jd_cjhy_wxShopFollowActivity_activityId
-  Name: 【Faker】cjhy关注店铺有礼
-  Script: jd_cjhy_wxShopFollowActivity.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -777,24 +759,6 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Env: jd_lzkj_wxShopGift_ids
-  KeyWord:
-  - - jd_lzkj_wxShopGift_ids
-  Name: 【Faker】lzkj店铺礼包
-  Script: jd_lzkj_wxShopGift.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Env: jd_cjhy_wxShopGift_ids
-  KeyWord:
-  - - jd_cjhy_wxShopGift_ids
-  Name: 【Faker】cjhy店铺礼包
-  Script: jd_cjhy_wxShopGift.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
   Env: jd_lzkj_wxGameActivity_activityId
   KeyWord:
   - - jd_lzkj_wxGameActivity_activityId
@@ -813,47 +777,11 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Env: jd_lzkjdz_wxTeam_Id
-  KeyWord:
-  - - jd_lzkjdz_wxTeam_Id
-  Name: 【Faker】LZ组队瓜分京豆
-  Script: jd_lzkjdz_wxTeam.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Env: jd_cjhydz_wxTeam_Id
-  KeyWord:
-  - - jd_cjhydz_wxTeam_Id
-  Name: 【Faker】CJ组队瓜分京豆
-  Script: jd_cjhydz_wxTeam.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
   Env: jd_cjhy_wxMcLevelAndBirthGifts_ids
   KeyWord:
   - - jd_cjhy_wxMcLevelAndBirthGifts_ids
   Name: 【Faker】cjhy生日礼
   Script: jd_cjhy_wxMcLevelAndBirthGifts.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Env: jd_lzkj_wxKnowledgeActivity_activityId
-  KeyWord:
-  - - jd_lzkj_wxKnowledgeActivity_activityId
-  Name: 【Faker】lzkj知识超人
-  Script: jd_lzkj_wxKnowledgeActivity.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Env: jd_cjhy_wxKnowledgeActivity_activityId
-  KeyWord:
-  - - jd_cjhy_wxKnowledgeActivity_activityId
-  Name: 【Faker】cjhy知识超人
-  Script: jd_cjhy_wxKnowledgeActivity.js
   TimeOut: 0
   Wait: 5
 - Container:
