@@ -1,0 +1,159 @@
+wxPointShopView/pointExgBeans: "jd_wxPointShop_bean_wxId",
+daily: "jd_wxDaily_wxId",
+wxShopFollowActivity: "jd_wxShopFollow_wxId",
+wxBuildActivity: "jd_wxBuild_wxId",
+wxKnowledgeActivity: "jd_wxKnowledge_wxId",
+wx/completeInfoActivity: "jd_wxCompleteInfo_wxId",
+front/showInviteJoin: "jd_wx_jinggeng_invite_wxId",
+dingzhi/dz/openCard: "jd_wx_dz_opencard_wxId",
+categoryUnion/activity: "jd_wx_categoryUnion_opencard_wxId",
+dingzhi/highRed/active: "jd_wx_highRed_opencard_wxId",
+dingzhi/joinCommon: "jd_wx_joinCommon_opencard_wxId",
+dingzhi/customized: "jd_wx_customized_opencard_wxId",
+dingzhi/shop/league: "jd_wx_shopLeague_opencard_wxId",
+active/dVF7gQUVKyUcuSsVhuya5d2XD4F: "jd_invite_id",
+wxCartKoi/cartkoi: "jd_wxCartKoi_wxId",
+pool/captain: "jd_wxPoolCaptain_join_wxId",
+wxgame/activity: "jd_wxgame_wxId",
+wxShareActivity/activity: "jd_wxShare_wxId",
+wxUnPackingActivity/activity: "jd_wxUnPacking_wxId",
+mshop/shopdraw: "jd_shopDraw_id",
+/h5/pages/turntable/turntable?id:: "jd_wx_hdb_draw_wxId",
+/wxShopGift/activity?activityId: "jd_wxShopGift_wxId",
+/wxCollectionActivity/activity2: "jd_wxCollection_wxId",
+/wxDrawActivity/activity?activityId: "jd_wxDraw_wxId",
+/lzclient/: "jd_wxDraw_wxId",
+/wx/completeInfoActivity/view/activity?activityId: "jd_wxCompleteInfo_wxI
+/mc/wxPointShopView/pointExgShiWu: "jd_wxPointShop_shiwu_wxId",
+/mc/wxPointShopView/pointExgBeans: "jd_wxPointShop_bean_wxId",
+/h5/pages/shopGift/customGift: "jd_wx_hdb_shopGift_wxId",
+/wxInviteActivity/openCard: "jd_wxInvite_wxId",
+/wxTeam/activity: "jd_wxTeam_wxId",
+/wxTeam/activity2: "jd_wxTeam_wxId",
+/mc/wxMcLevelAndBirthGifts/activity: "jd_wxMcLevelAndBirthGifts_wxId",
+/drawCenter/activity/: "jd_wxDrawCenter_wxId",
+/wxGameActivity: "jd_wxGameActivity_wxId",
+hdb-isv.isvjcloud.com/h5/pages/inviteJoin: "jd_wx_hdb_inviteJoin_wxId",
+wgzsl-isv: "jd_spy_gzsl_game_wxId",
+daily: "jd_wx_daily",
+wxShopFollowActivity: "jd_wx_followshop",
+wxBuildActivity: "jd_wx_build",
+wxKnowledgeActivity: "jd_wx_Knowledge",
+wx/completeInfoActivity: "jd_wx_completeInfo",
+front/showInviteJoin: "jd_jinggeng_showInviteJoin",
+active/dVF7gQUVKyUcuSsVhuya5d2XD4F: "jd_invite",
+wxCartKoi/cartkoi: "jd_wx_CartKoi",
+wxgame/activity: "jd_wx_game",
+wxShareActivity/activity: "jd_wx_share",
+wxUnPackingActivity/activity: "jd_wx_UnPacking",
+/h5/pages/turntable/turntable?id:: "jd_hdb_draw",
+/wxShopGift/activity: "jd_daily_follow",
+/wxCollectionActivity: "jd_wx_collection",
+/wxDrawActivity/: "jd_wx_draw",
+/lzclient/: "jd_wx_draw",
+/wx/completeInfoActivity/view/activity?activityId: "jd_wx_completeInfo",
+/wxInviteActivity/openCard: "jd_wx_invite_opencard",
+/wxTeam/activity: "jd_wx_team",
+/mc/wxMcLevelAndBirthGifts/activity: "jd_wx_McLevelAndBirthGifts",
+/drawCenter/activity/: "jd_wx_drawCenter",
+/wxGameActivity: "jd_wx_gameActivity",
+hdb-isv.isvjcloud.com/h5/pages/inviteJoin: "jd_jinggeng_showInviteJoin",
+activityType=10032: "jd_lz_collectCard",
+activityType=10024: "jd_lz_collection",
+activityType=10020: "jd_lz_draw",
+activityType=10021: "jd_lz_draw",
+activityType=10062: "jd_lz_draw",
+activityType=10079: "jd_lz_exchange",
+activityType=10053: "jd_lz_followGoods",
+activityType=10068: "jd_lz_followShop",
+activityType=10089: "jd_lz_game",
+activityType=10082: "jd_lz_game",
+activityType=10095: "jd_lz_game",
+activityType=10070: "jd_lz_invite",
+activityType=10069: "jd_lz_lkFollowShop",
+activityType=10035: "jd_lz_second",
+activityType=10043: "jd_lz_share",
+activityType=10023: "jd_lz_sign",
+jinggengjcq-isv.isvjcloud.com/jdbeverage/pages: "jd_mpdz_BigAlliance_open
+lives.jd.com: "jd_daily_live",
+/live.html?: "jd_daily_live",
+
+
+kr_decode_rule = {
+microDz/invite/activity: "jd_wdz_activityId",
+microDz/invite/openLuckBag: "jd_wdzfd_activityId",
+wxCollectCard: "jd_wxCollectCard_activityId",
+wxCollectionActivity: "jd_wxCollectionActivity_activityUrl",
+wxDrawActivity: "LUCK_DRAW_URL",
+lzclient: "LUCK_DRAW_URL",
+wxgame: "jd_wxgame_activityId",
+wxSecond: "jd_wxSecond_activityId",
+wxCartKoi: "jd_wxCartKoi_activityId",
+wxShopFollowActivity: "jd_wxShopFollowActivity_activityUrl",
+drawCenter: "jd_drawCenter_activityId",
+wxFansInterActionActivity: "jd_wxFansInterActionActivity_activityId",
+wxShareActivity: "jd_wxShareActivity_activityId",
+jdjoy.jd.com/module/task/v2/doTask: "comm_activityIDList",
+sevenDay/signActivity: "CJHY_SEVENDAY",
+sign/signActivity: "LZKJ_SIGN",
+sign/sevenDay: "LZKJ_SEVENDAY",
+wxUnPackingActivity: "jd_wxUnPackingActivity_activityId",  									//jd_wxUnPackingActivity.js
+completeInfoActivity: "jd_completeInfoActivity_activityUrl",  								//jd_completeInfoActivity.js
+wxMcLevelAndBirthGifts: "jd_wxMcLevelAndBirthGifts_activityUrl",  							//jd_wxMcLevelAndBirthGifts.js
+wxBuildActivity: "jd_wxBuildActivity_activityId",  											//jd_wxBuildActivity.js
+wxKnowledgeActivity: "jd_wxKnowledgeActivity_activityUrl",  								//jd_wxKnowledgeActivity.js
+wxShopGift: "jd_wxShopGift_activityUrl",  													//jd_wxShopGift.js
+cart_item: "jd_cart_item_activityUrl",  													//jd_txzj_cart_item.js
+collect_item: "jd_collect_item_activityUrl",  												//jd_txzj_collect_item.js
+collect_shop: "jd_collect_shop_activityUrl",  												//jd_txzj_collect_shop.js
+lottery: "jd_lottery_activityUrl",  														//jd_txzj_lottery.js
+shopcard: "VENDER_ID",  																	//jd_OpenCard_Force.js
+wxInviteActivity/openCard/invitee: "VENDER_ID",  											//jd_OpenCard_Force.js
+active/dVF7gQUVKyUcuSsVhuya5d2XD4F: "jd_prodev_actCode",  									//jd_prodev.js
+jdbeverage/pages: "DPLHTY",  																//jd_opencardDPLHTY.js
+showInviteJoin: "jd_showInviteJoin_activityUrl",  											//jd_jinggeng_showInviteJoin.js
+shop/lottery: "jd_shopDraw_venderId",  														//jd_shopDraw.js
+activityType=10006: "jd_lzkj_loreal_invite_url",  											//jd_lzkj_loreal_invite.js
+activityType=10007: "jd_lzkj_loreal_invite_url",  											//jd_lzkj_loreal_invite.js
+activityType=10021: "jd_lzkj_loreal_draw_url",  											//jd_lzkj_loreal_draw.js
+activityType=10020: "jd_lzkj_loreal_draw_url",  											//jd_lzkj_loreal_draw.js
+activityType=10041: "jd_lzkj_loreal_draw_url",  											//jd_lzkj_loreal_draw.js
+activityType=10042: "jd_lzkj_loreal_draw_url",  											//jd_lzkj_loreal_draw.js
+activityType=10046: "jd_lzkj_loreal_draw_url",  											//jd_lzkj_loreal_draw.js
+activityType=10062: "jd_lzkj_loreal_draw_url",  											//jd_lzkj_loreal_draw.js
+activityType=10063: "jd_lzkj_loreal_draw_url",  											//jd_lzkj_loreal_draw.js
+activityType=10073: "jd_lzkj_loreal_draw_url",  											//jd_lzkj_loreal_draw.js
+activityType=10026: "jd_lzkj_loreal_draw_url",  											//jd_lzkj_loreal_draw.js
+activityType=10080: "jd_lzkj_loreal_draw_url",  											//jd_lzkj_loreal_draw.js
+activityType=10024: "jd_lzkj_loreal_cart_url",  											//jd_lzkj_loreal_cart.js
+activityType=10001: "jd_lzkj_loreal_sign_url",  											//jd_lzkj_loreal_sign.js
+activityType=10002: "jd_lzkj_loreal_sign_url",  											//jd_lzkj_loreal_sign.js
+activityType=10003: "jd_lzkj_loreal_sign_url",  											//jd_lzkj_loreal_sign.js
+activityType=10004: "jd_lzkj_loreal_sign_url",  											//jd_lzkj_loreal_sign.js
+activityType=10053: "jd_lzkj_loreal_followGoods_url",  										//jd_lzkj_loreal_followGoods.js
+activityType=10023: "jd_lzkj_loreal_daySign_url",  											//jd_lzkj_loreal_daySign.js
+activityType=10040: "jd_lzkj_loreal_daySign_url",  											//jd_lzkj_loreal_daySign.js
+activityType=10054: "jd_lzkj_loreal_upperSign_url",  										//jd_lzkj_loreal_upperSign.js
+activityType=10069: "jd_lzkj_loreal_lkFollowShop_url",  									//jd_lzkj_loreal_lkFollowShop.js
+babelDiy/Zeus/2PAAf74aG3D61qvfKUM5dxUssJQ9: "DPQDTK",  										//jd_dpqd.js
+prod/cc/cjwx/sign: "jd_shopSign_activityUrl",  												//jd_shopSign.js
+wxPointShopView/pointExgBeans: "jd_pointExgBeans_activityUrl",
+wxPointShopView/pointExgShiWu: "jd_pointExgShiWu_activityUrl",
+wxPointShopView/pointExgHb: "jd_pointExgHb_activityUrl",
+wxGameActivity: "jd_wxGameActivity_activityUrl",  											//jd_wxGameActivity.js
+activity/daily: "jd_daily_activityUrl",  													//jd_daily.js
+wxShopFollowActivity/activity: "jd_daily_activityUrl",  									//jd_daily.js
+activity/daily/wx/indexPage: "jd_daily_activityUrl",  										//jd_daily.js
+showTaskDraw: "jd_jinggeng_showTaskDraw_activityUrl",  										//jd_jinggeng_showTaskDraw.js
+showSign: "jd_jinggeng_showSign_activityUrl",  												//jd_jinggeng_showSign.js
+showPerfectInformation: "jd_jinggeng_showPerfectInformation_activityUrl",  					//jd_jinggeng_showPerfectInformation.js
+showPartition: "jd_jinggeng_showPartition_activityUrl",   									//jd_jinggeng_showPartition.js
+"showFavoriteShop": "jd_jinggeng_showFavoriteShop_activityUrl",  							//jd_jinggeng_showFavoriteShop.js
+"showDrawOne": "jd_jinggeng_showDrawOne_activityUrl",  										//jd_jinggeng_showDrawOne.js
+"showCart": "jd_jinggeng_showCart_activityUrl",  											//jd_jinggeng_showCart.js
+"loadBlindBox": "jd_jinggeng_loadBlindBox_activityUrl",  									//jd_jinggeng_loadBlindBox.js
+"floor": "jd_jinggeng_floor_activityUrl",  													//jd_jinggeng_floor.js
+"wxTeam/activity": "jd_wxTeam_activityUrl",  												//jd_wxTeam.js
+"activityType=10049": "jd_lzkj_loreal_perfectInfo_url",  									//jd_lzkj_loreal_perfectInfo.js
+"activityType=10043": "jd_lzkj_loreal_share_url"  											//jd_lzkj_loreal_share.js
+}
