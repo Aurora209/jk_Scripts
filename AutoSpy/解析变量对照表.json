@@ -1,9 +1,9 @@
-wxPointShopView/pointExgBeans: "jd_wxPointShop_bean_wxId",
+wxPointShopView/pointExgBeans: "jd_wxPointShop_bean_wxId",  					//jd_pointExgBeans.js				##
 daily: "jd_wxDaily_wxId",
-wxShopFollowActivity: "jd_wxShopFollow_wxId",
-wxBuildActivity: "jd_wxBuild_wxId",
-wxKnowledgeActivity: "jd_wxKnowledge_wxId",
-wx/completeInfoActivity: "jd_wxCompleteInfo_wxId",
+wxShopFollowActivity: "jd_wxShopFollow_wxId",  									//jd_wxShopFollowActivity.js 		 ##
+wxBuildActivity: "jd_wxBuild_wxId",  											//jd_wxBuildActivity.js
+wxKnowledgeActivity: "jd_wxKnowledge_wxId",  									//jd_wxKnowledgeActivity.js			##
+wx/completeInfoActivity: "jd_wxCompleteInfo_wxId",								//jd_cjhy_completeInfoActivity.js  	##
 front/showInviteJoin: "jd_wx_jinggeng_invite_wxId",
 dingzhi/dz/openCard: "jd_wx_dz_opencard_wxId",
 categoryUnion/activity: "jd_wx_categoryUnion_opencard_wxId",
@@ -23,9 +23,9 @@ mshop/shopdraw: "jd_shopDraw_id",
 /wxCollectionActivity/activity2: "jd_wxCollection_wxId",
 /wxDrawActivity/activity?activityId: "jd_wxDraw_wxId",
 /lzclient/: "jd_wxDraw_wxId",
-/wx/completeInfoActivity/view/activity?activityId: "jd_wxCompleteInfo_wxI
+/wx/completeInfoActivity/view/activity?activityId: "jd_wxCompleteInfo_wxI			//jd_cjhy_completeInfoActivity.js
 /mc/wxPointShopView/pointExgShiWu: "jd_wxPointShop_shiwu_wxId",
-/mc/wxPointShopView/pointExgBeans: "jd_wxPointShop_bean_wxId",
+/mc/wxPointShopView/pointExgBeans: "jd_wxPointShop_bean_wxId",  					//jd_pointExgBeans.js
 /h5/pages/shopGift/customGift: "jd_wx_hdb_shopGift_wxId",
 /wxInviteActivity/openCard: "jd_wxInvite_wxId",
 /wxTeam/activity: "jd_wxTeam_wxId",
@@ -35,34 +35,34 @@ mshop/shopdraw: "jd_shopDraw_id",
 /wxGameActivity: "jd_wxGameActivity_wxId",
 hdb-isv.isvjcloud.com/h5/pages/inviteJoin: "jd_wx_hdb_inviteJoin_wxId",
 wgzsl-isv: "jd_spy_gzsl_game_wxId",
-daily: "jd_wx_daily",
-wxShopFollowActivity: "jd_wx_followshop",
-wxBuildActivity: "jd_wx_build",
-wxKnowledgeActivity: "jd_wx_Knowledge",
+daily: "jd_wx_daily",  																	//jd_daily.js
+wxShopFollowActivity: "jd_wx_followshop",												//jd_wxShopFollowActivity.js
+wxBuildActivity: "jd_wx_build",  														//jd_wxBuildActivity.js
+wxKnowledgeActivity: "jd_wx_Knowledge",  												//jd_wxKnowledgeActivity.js
 wx/completeInfoActivity: "jd_wx_completeInfo",
-front/showInviteJoin: "jd_jinggeng_showInviteJoin",
+front/showInviteJoin: "jd_jinggeng_showInviteJoin",  									//jd_jinggeng_showInviteJoin.js
 active/dVF7gQUVKyUcuSsVhuya5d2XD4F: "jd_invite",
-wxCartKoi/cartkoi: "jd_wx_CartKoi",
+wxCartKoi/cartkoi: "jd_wx_CartKoi",  													//jd_wxCartKoi.js
 wxgame/activity: "jd_wx_game",
 wxShareActivity/activity: "jd_wx_share",
 wxUnPackingActivity/activity: "jd_wx_UnPacking",
 /h5/pages/turntable/turntable?id:: "jd_hdb_draw",
-/wxShopGift/activity: "jd_daily_follow",
-/wxCollectionActivity: "jd_wx_collection",
-/wxDrawActivity/: "jd_wx_draw",
-/lzclient/: "jd_wx_draw",
+/wxShopGift/activity: "jd_daily_follow",  												//jd_wxShopGift.js
+/wxCollectionActivity: "jd_wx_collection",  											//jd_wxCollectionActivity.js
+/wxDrawActivity/: "jd_wx_draw",  														//jd_luck_draw.js
+/lzclient/: "jd_wx_draw",  																//jd_luck_draw.js
 /wx/completeInfoActivity/view/activity?activityId: "jd_wx_completeInfo",
 /wxInviteActivity/openCard: "jd_wx_invite_opencard",
-/wxTeam/activity: "jd_wx_team",
+/wxTeam/activity: "jd_wx_team",  														//jd_wxTeam.js
 /mc/wxMcLevelAndBirthGifts/activity: "jd_wx_McLevelAndBirthGifts",
-/drawCenter/activity/: "jd_wx_drawCenter",
+/drawCenter/activity/: "jd_wx_drawCenter",  											//jd_drawCenter.js
 /wxGameActivity: "jd_wx_gameActivity",
-hdb-isv.isvjcloud.com/h5/pages/inviteJoin: "jd_jinggeng_showInviteJoin",
+hdb-isv.isvjcloud.com/h5/pages/inviteJoin: "jd_jinggeng_showInviteJoin",  				//jd_jinggeng_showInviteJoin.js
 activityType=10032: "jd_lz_collectCard",
 activityType=10024: "jd_lz_collection",
-activityType=10020: "jd_lz_draw",
-activityType=10021: "jd_lz_draw",
-activityType=10062: "jd_lz_draw",
+activityType=10020: "jd_lz_draw",														//jd_lzkj_loreal_draw.js
+activityType=10021: "jd_lz_draw",														//jd_lzkj_loreal_draw.js
+activityType=10062: "jd_lz_draw",														//jd_lzkj_loreal_draw.js
 activityType=10079: "jd_lz_exchange",
 activityType=10053: "jd_lz_followGoods",
 activityType=10068: "jd_lz_followShop",
@@ -80,23 +80,23 @@ lives.jd.com: "jd_daily_live",
 
 
 kr_decode_rule = {
-microDz/invite/activity: "jd_wdz_activityId",
-microDz/invite/openLuckBag: "jd_wdzfd_activityId",
-wxCollectCard: "jd_wxCollectCard_activityId",
-wxCollectionActivity: "jd_wxCollectionActivity_activityUrl",
-wxDrawActivity: "LUCK_DRAW_URL",
-lzclient: "LUCK_DRAW_URL",
-wxgame: "jd_wxgame_activityId",
-wxSecond: "jd_wxSecond_activityId",
-wxCartKoi: "jd_wxCartKoi_activityId",
-wxShopFollowActivity: "jd_wxShopFollowActivity_activityUrl",
-drawCenter: "jd_drawCenter_activityId",
-wxFansInterActionActivity: "jd_wxFansInterActionActivity_activityId",
-wxShareActivity: "jd_wxShareActivity_activityId",
+microDz/invite/activity: "jd_wdz_activityId",  												//jd_cjhydz_microDz.js
+microDz/invite/openLuckBag: "jd_wdzfd_activityId",											//jd_openLuckBag.js
+wxCollectCard: "jd_wxCollectCard_activityId",  												//jd_wxCollectCard.js
+wxCollectionActivity: "jd_wxCollectionActivity_activityUrl",  								//jd_wxCollectionActivity.js
+wxDrawActivity: "LUCK_DRAW_URL",  															//jd_luck_draw.js
+lzclient: "LUCK_DRAW_URL",  																//jd_luck_draw.js
+wxgame: "jd_wxgame_activityId",  															//jd_wxgame.js
+wxSecond: "jd_wxSecond_activityId",  														//jd_wxSecond.js
+wxCartKoi: "jd_wxCartKoi_activityId",  														//jd_wxCartKoi.js
+wxShopFollowActivity: "jd_wxShopFollowActivity_activityUrl",  								//jd_wxShopFollowActivity.js
+drawCenter: "jd_drawCenter_activityId",  													//jd_drawCenter.js
+wxFansInterActionActivity: "jd_wxFansInterActionActivity_activityId",  						//jd_wxFansInterActionActivity.js
+wxShareActivity: "jd_wxShareActivity_activityId",  											//jd_wxShareActivity.js
 jdjoy.jd.com/module/task/v2/doTask: "comm_activityIDList",
-sevenDay/signActivity: "CJHY_SEVENDAY",
-sign/signActivity: "LZKJ_SIGN",
-sign/sevenDay: "LZKJ_SEVENDAY",
+sevenDay/signActivity: "CJHY_SEVENDAY",  													//jd_cjhy_sevenDay.js ##
+sign/signActivity: "LZKJ_SIGN",  															//jd_lzkj_signActivity2.js ##
+sign/sevenDay: "LZKJ_SEVENDAY",  															//jd_lzkj_sevenDay.js  ##
 wxUnPackingActivity: "jd_wxUnPackingActivity_activityId",  									//jd_wxUnPackingActivity.js
 completeInfoActivity: "jd_completeInfoActivity_activityUrl",  								//jd_completeInfoActivity.js
 wxMcLevelAndBirthGifts: "jd_wxMcLevelAndBirthGifts_activityUrl",  							//jd_wxMcLevelAndBirthGifts.js
