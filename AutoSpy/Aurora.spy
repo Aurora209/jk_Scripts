@@ -294,7 +294,6 @@ js_config:
   Env: jd_shopGifts_ids
   KeyWord:
   - - jd_shopGifts_ids
-  - - jd_shopFollowGiftId
   Name: 环境店铺礼包
   Script: jd_shopGifts.js
   TimeOut: 0
@@ -599,15 +598,6 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Env: jd_lzkj_loreal_upperSign_url
-  KeyWord:
-  - - jd_lzkj_loreal_upperSign_url
-  Name: 上上签抽奖（lzkj_loreal）
-  Script: jd_lzkj_loreal_upperSign.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
   Env: jd_wxCollectCard_activityId
   KeyWord:
   - - jd_wxCollectCard_activityId
@@ -832,5 +822,26 @@ js_config:
   - - jd_wxBirthGiftsId
   Name: cjhy生日礼
   Script: jd_cjhy_wxMcLevelAndBirthGifts.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_lzkj_loreal_inviteFollowShop_url
+  KeyWord:
+  - - jd_lzkj_loreal_inviteFollowShop_url
+  Name: 邀请关注店铺有礼（超级无线)
+  Script: jd_lzkj_loreal_inviteFollowShop.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: LZKJ_SEVENDAY
+  KeyWord:
+  - - LZKJ_SEVENDAY
+  - - LZKJ_SIGN
+  - - CJHY_SEVENDAY
+  - - CJHY_SIGN
+  Name: 店铺签到 · 超级无线
+  Script: jd_sevenDay.js
   TimeOut: 0
   Wait: 5
