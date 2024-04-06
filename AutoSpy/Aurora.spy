@@ -1,11 +1,11 @@
 js_config:
 - Container:
   - []
-  Env: jd_completeInfoActivity_activityU
+  Env: jd_completeInfoActivity_activityUrl
   KeyWord:
   - - jd_completeInfoActivity_activityUrl
   Name: 完善信息有礼（超级会员）
-  Script:jd_completeInfoActivity.j
+  Script: jd_completeInfoActivity.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -14,25 +14,25 @@ js_config:
   KeyWord:
   - - jd_daily_activityUrl
   Name: 每日抢好礼（超级无线/超级会员）
-  Script:jd_daily.js
+  Script: jd_daily.js
   TimeOut: 0
-  Wait: 5
+  Wait: 2
 - Container:
   - []
   Env: jd_dpqd_tokens
   KeyWord:
   - - jd_dpqd_tokens
   Name: 批量店铺签到（活动查询）
-  Script:jd_dpqd_main.js
+  Script: jd_dpqd_main.js
   TimeOut: 0
-  Wait: 5
+  Wait: 2
 - Container:
   - []
   Env: jd_dpqd_tokens
   KeyWord:
   - - jd_dpqd_tokens
   Name: 批量店铺签到（历史查询）
-  Script:jd_dpqd_record.js
+  Script: jd_dpqd_record.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -41,7 +41,7 @@ js_config:
   KeyWord:
   - - jd_dpqd_tokens
   Name: 批量店铺签到
-  Script:jd_dpqd_sign.js
+  Script: jd_dpqd_sign.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -50,7 +50,7 @@ js_config:
   KeyWord:
   - - jd_dpqd_token
   Name: 店铺签到
-  Script:jd_dpqd_single.js
+  Script: jd_dpqd_single.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -59,7 +59,7 @@ js_config:
   KeyWord:
   - - jd_drawCenter_activityId
   Name: 店铺抽奖中心（超级无线）
-  Script:jd_drawCenter.js
+  Script: jd_drawCenter.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -68,7 +68,7 @@ js_config:
   KeyWord:
   - - jd_drawShopGift_argv
   Name: 店铺关注有礼
-  Script:jd_drawShopGift.js
+  Script: jd_drawShopGift.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -77,16 +77,16 @@ js_config:
   KeyWord:
   - - jd_fansDraw_activityUrl
   Name: 粉丝福利红包
-  Script:jd_fansDraw.js
+  Script: jd_fansDraw.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_gzsl_contactWare_activityUr
+  Env: jd_gzsl_contactWare_activityUrl
   KeyWord:
   - - jd_gzsl_contactWare_activityUrl
   Name: 关注有礼（无线营销）
-  Script:jd_gzsl_contactWare.js
+  Script: jd_gzsl_contactWare.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -95,25 +95,25 @@ js_config:
   KeyWord:
   - - jd_gzsl_getLottery_activityUrl
   Name: 幸运大转盘（无线营销）
-  Script:jd_gzsl_getLottery.js
+  Script: jd_gzsl_getLottery.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_gzsl_shopGiftBag_activityUr
+  Env: jd_gzsl_shopGiftBag_activityUrl
   KeyWord:
   - - jd_gzsl_shopGiftBag_activityUrl
   Name: 店铺礼包（无线营销）
-  Script:jd_gzsl_shopGiftBag.js
+  Script: jd_gzsl_shopGiftBag.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_jinggeng_exchangeActDetail_ur
+  Env: jd_jinggeng_exchangeActDetail_url
   KeyWord:
   - - jd_jinggeng_exchangeActDetail_url
   Name: 积分兑换（京耕）
-  Script:jd_jinggeng_exchangeActDetail
+  Script: jd_jinggeng_exchangeActDetail.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -122,88 +122,88 @@ js_config:
   KeyWord:
   - - jd_jinggeng_floor_activityUrl
   Name: 盖楼有礼（京耕）
-  Script:jd_jinggeng_floor.js
+  Script: jd_jinggeng_floor.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_jinggeng_loadBlindBox_activityU
+  Env: jd_jinggeng_loadBlindBox_activityUrl
   KeyWord:
   - - jd_jinggeng_loadBlindBox_activityUrl
   Name: 惊喜开盲盒（京耕）
-  Script:jd_jinggeng_loadBlindBox.
+  Script: jd_jinggeng_loadBlindBox.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_jinggeng_showCart_activityUr
+  Env: jd_jinggeng_showCart_activityUrl
   KeyWord:
   - - jd_jinggeng_showCart_activityUrl
   Name: 加购有礼（京耕）
-  Script:jd_jinggeng_showCart.j
+  Script: jd_jinggeng_showCart.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_jinggeng_showDrawOne_activityU
+  Env: jd_jinggeng_showDrawOne_activityUrl
   KeyWord:
   - - jd_jinggeng_showDrawOne_activityUrl
   Name: 积分抽奖（京耕）
-  Script:jd_jinggeng_showDrawOne.j
+  Script: jd_jinggeng_showDrawOne.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_jinggeng_showFavoriteShop_activity
+  Env: jd_jinggeng_showFavoriteShop_activityUrl
   KeyWord:
-  - - jd_jinggeng_showFavoriteShop_activityUr
+  - - jd_jinggeng_showFavoriteShop_activityUrl
   Name: 关注店铺有礼（京耕）
-  Script:jd_jinggeng_showFavoriteShop
+  Script: jd_jinggeng_showFavoriteShop.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_jinggeng_showInviteJoin_activityU
+  Env: jd_jinggeng_showInviteJoin_activityUrl
   KeyWord:
   - - jd_jinggeng_showInviteJoin_activityUrl
   Name: 邀请入会赢好礼（京耕）
-  Script:jd_jinggeng_showInviteJoin.
+  Script: jd_jinggeng_showInviteJoin.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_jinggeng_showPartition_activityU
+  Env: jd_jinggeng_showPartition_activityUrl
   KeyWord:
   - - jd_jinggeng_showPartition_activityUrl
   Name: 组队瓜分奖品（京耕）
-  Script:jd_jinggeng_showPartition.
+  Script: jd_jinggeng_showPartition.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_jinggeng_showPerfectInformation_activit
+  Env: jd_jinggeng_showPerfectInformation_activityUrl
   KeyWord:
-  - - jd_jinggeng_showPerfectInformation_activityU
+  - - jd_jinggeng_showPerfectInformation_activityUrl
   Name: 完善有礼（京耕）
-  Script:jd_jinggeng_showPerfectInformatio
+  Script: jd_jinggeng_showPerfectInformation.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_jinggeng_showSign_activityUr
+  Env: jd_jinggeng_showSign_activityUrl
   KeyWord:
   - - jd_jinggeng_showSign_activityUrl
-  Name: 签到有礼（京耕
-  Script:jd_jinggeng_showSign.j
+  Name: 签到有礼（京耕）
+  Script: jd_jinggeng_showSign.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_jinggeng_showTaskDraw_activityU
+  Env: jd_jinggeng_showTaskDraw_activityUrl
   KeyWord:
   - - jd_jinggeng_showTaskDraw_activityUrl
   Name: 幸运抽奖（京耕）
-  Script:jd_jinggeng_showTaskDraw.
+  Script: jd_jinggeng_showTaskDraw.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -212,7 +212,7 @@ js_config:
   KeyWord:
   - - LUCK_DRAW_URL
   Name: 店铺抽奖（超级无线/超级会员）
-  Script:jd_luck_draw.js
+  Script: jd_luck_draw.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -221,7 +221,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_cart_url
   Name: 加购有礼（超级无线）
-  Script:jd_lzkj_cart.js
+  Script: jd_lzkj_cart.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -230,7 +230,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_dailyGrabs_url
   Name: 每日抢好礼（超级无线）
-  Script:jd_lzkj_dailyGrabs.js
+  Script: jd_lzkj_dailyGrabs.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -239,7 +239,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_daySign_url
   Name: 签到有礼（超级无线）
-  Script:jd_lzkj_daySign.js
+  Script: jd_lzkj_daySign.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -248,7 +248,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_draw_url
   Name: 幸运抽奖（超级无线）
-  Script:jd_lzkj_draw.js
+  Script: jd_lzkj_draw.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -257,7 +257,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_followGoods_url
   Name: 关注商品有礼（超级无线）
-  Script:jd_lzkj_followGoods.js
+  Script: jd_lzkj_followGoods.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -266,7 +266,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_inviteFollowShop_url
   Name: 邀请关注店铺有礼（超级无线）
-  Script:jd_lzkj_inviteFollowShop.
+  Script: jd_lzkj_inviteFollowShop.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -275,7 +275,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_know_url
   Name: 知识超人（超级无线）
-  Script:jd_lzkj_know.js
+  Script: jd_lzkj_know.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -284,7 +284,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_lkFollowShop_url
   Name: 关注店铺有礼（超级无线）
-  Script:jd_lzkj_lkFollowShop.j
+  Script: jd_lzkj_lkFollowShop.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -293,7 +293,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_loreal_invite_url
   Name: 邀请入会有礼（超级无线）
-  Script:jd_lzkj_loreal_invite.j
+  Script: jd_lzkj_loreal_invite.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -302,7 +302,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_loreal_share_url
   Name: 分享有礼（超级无线）
-  Script:jd_lzkj_loreal_share.j
+  Script: jd_lzkj_loreal_share.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -311,7 +311,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_loreal_sign_url
   Name: 签到抽奖（超级无线）
-  Script:jd_lzkj_loreal_sign.js
+  Script: jd_lzkj_loreal_sign.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -320,7 +320,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_organizeTeam_url
   Name: 组队瓜分奖品（超级无线）
-  Script:jd_lzkj_organizeTeam.j
+  Script: jd_lzkj_organizeTeam.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -329,7 +329,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_perfectInfo_url
   Name: 完善有礼（超级无线）
-  Script:jd_lzkj_perfectInfo.js
+  Script: jd_lzkj_perfectInfo.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -338,7 +338,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_pointsExchange_url
   Name: 积分兑换（超级无线）
-  Script:jd_lzkj_pointsExchange.j
+  Script: jd_lzkj_pointsExchange.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -347,7 +347,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_shopGift_url
   Name: 店铺礼包（超级无线）
-  Script:jd_lzkj_shopGift.js
+  Script: jd_lzkj_shopGift.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -356,7 +356,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_v2_birthday_url
   Name: 生日礼包（超级无线V2）
-  Script:jd_lzkj_v2_birthday.js
+  Script: jd_lzkj_v2_birthday.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -365,7 +365,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_v2_draw_url
   Name: 幸运抽奖（超级无线V2）
-  Script:jd_lzkj_v2_draw.js
+  Script: jd_lzkj_v2_draw.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -374,7 +374,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_v2_perfectInfo_url
   Name: 完善有礼（超级无线V2）
-  Script:jd_lzkj_v2_perfectInfo.j
+  Script: jd_lzkj_v2_perfectInfo.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -383,7 +383,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_v2_sign_url
   Name: 签到有礼（超级无线V2）
-  Script:jd_lzkj_v2_sign.js
+  Script: jd_lzkj_v2_sign.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -394,7 +394,7 @@ js_config:
   - - venderId
   - - vendorId
   Name: 入会开卡领取礼包
-  Script:jd_OpenCard.js
+  Script: jd_OpenCard.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -405,7 +405,7 @@ js_config:
   - - venderId
   - - vendorId
   Name: 强制入会
-  Script:jd_OpenCard_Force.js
+  Script: jd_OpenCard_Force.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -414,7 +414,7 @@ js_config:
   KeyWord:
   - - DPLHTY
   Name: 大牌联合通用开卡
-  Script:jd_opencardDPLHTY.js
+  Script: jd_opencardDPLHTY.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -423,7 +423,7 @@ js_config:
   KeyWord:
   - - jd_pointExgBeans_activityUrl
   Name: 积分兑换京豆（超级会员）
-  Script:jd_pointExgBeans.js
+  Script: jd_pointExgBeans.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -432,7 +432,7 @@ js_config:
   KeyWord:
   - - jd_pointExgHb_activityUrl
   Name: 积分兑换红包（超级会员）
-  Script:jd_pointExgHb.js
+  Script: jd_pointExgHb.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -441,7 +441,7 @@ js_config:
   KeyWord:
   - - jd_pointExgShiWu_activityUrl
   Name: 积分兑换实物（超级会员）
-  Script:jd_pointExgShiWu.js
+  Script: jd_pointExgShiWu.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -450,11 +450,11 @@ js_config:
   KeyWord:
   - - jd_prodev_actCode
   Name: 邀请好友入会得好礼
-  Script:jd_prodev.js
+  Script: jd_prodev.js
   TimeOut: 0
   Wait: 5
 - Container:
- - []
+  - []
   Env: LZKJ_SEVENDAY
   KeyWord:
   - - LZKJ_SEVENDAY
@@ -462,7 +462,7 @@ js_config:
   - - CJHY_SEVENDAY
   - - CJHY_SIGN
   Name: 超级无线店铺签到
-  Script:jd_sevenDay.js
+  Script: jd_sevenDay.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -471,7 +471,7 @@ js_config:
   KeyWord:
   - - jd_shopLottery_activityUrl
   Name: 店铺刮刮乐
-  Script:jd_shop_lottery.js
+  Script: jd_shop_lottery.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -480,7 +480,7 @@ js_config:
   KeyWord:
   - - jd_shopDraw_venderId
   Name: 店铺左侧刮刮乐
-  Script:jd_shopDraw.js
+  Script: jd_shopDraw.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -489,7 +489,7 @@ js_config:
   KeyWord:
   - - jd_shopSign_activityUrl
   Name: 无线店铺签到（超级无线/超级会员）
-  Script:jd_shopSign.js
+  Script: jd_shopSign.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -498,7 +498,7 @@ js_config:
   KeyWord:
   - - jd_cart_item_activityUrl
   Name: 加购有礼（收藏大师）
-  Script:jd_txzj_cart_item.js
+  Script: jd_txzj_cart_item.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -507,7 +507,7 @@ js_config:
   KeyWord:
   - - jd_collect_item_activityUrl
   Name: 关注商品有礼（收藏大师）
-  Script:jd_txzj_collect_item.j
+  Script: jd_txzj_collect_item.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -516,7 +516,7 @@ js_config:
   KeyWord:
   - - jd_collect_shop_activityUrl
   Name: 关注店铺有礼（收藏大师）
-  Script:jd_txzj_collect_shop.j
+  Script: jd_txzj_collect_shop.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -525,7 +525,7 @@ js_config:
   KeyWord:
   - - jd_lottery_activityUrl
   Name: 幸运抽奖（收藏大师）
-  Script:jd_txzj_lottery.js
+  Script: jd_txzj_lottery.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -534,7 +534,7 @@ js_config:
   KeyWord:
   - - jd_share_new_activityUrl
   Name: 分享有礼（收藏大师）
-  Script:jd_txzj_share_new.js
+  Script: jd_txzj_share_new.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -543,7 +543,7 @@ js_config:
   KeyWord:
   - - jd_shop_gift_activityUrl
   Name: 店铺礼包（收藏大师）
-  Script:jd_txzj_shop_gift.js
+  Script: jd_txzj_shop_gift.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -552,7 +552,7 @@ js_config:
   KeyWord:
   - - jd_sign_in_activityUrl
   Name: 签到有礼（收藏大师）
-  Script:jd_txzj_sign_in.js
+  Script: jd_txzj_sign_in.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -561,7 +561,7 @@ js_config:
   KeyWord:
   - - jd_wxBuildActivity_activityId
   Name: 盖楼有礼（超级无线）
-  Script:jd_wxBuildActivity.js
+  Script: jd_wxBuildActivity.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -570,7 +570,7 @@ js_config:
   KeyWord:
   - - jd_wxCartKoi_activityId
   Name: 购物车锦鲤（超级无线）
-  Script:jd_wxCartKoi.js
+  Script: jd_wxCartKoi.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -579,25 +579,25 @@ js_config:
   KeyWord:
   - - jd_wxCollectCard_activityId
   Name: 集卡有礼（超级无线）
-  Script:jd_wxCollectCard.js
+  Script: jd_wxCollectCard.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_wxCollectionActivity_activityU
+  Env: jd_wxCollectionActivity_activityUrl
   KeyWord:
   - - jd_wxCollectionActivity_activityUrl
   Name: 加购有礼（超级无线/超级会员）
-  Script:jd_wxCollectionActivity.j
+  Script: jd_wxCollectionActivity.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_wxFansInterActionActivity_activit
+  Env: jd_wxFansInterActionActivity_activityId
   KeyWord:
-  - - jd_wxFansInterActionActivity_activityI
+  - - jd_wxFansInterActionActivity_activityId
   Name: 粉丝互动（超级无线）
-  Script:jd_wxFansInterActionActivity
+  Script: jd_wxFansInterActionActivity.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -606,34 +606,34 @@ js_config:
   KeyWord:
   - - jd_wxgame_activityId
   Name: 无线游戏（超级无线）
-  Script:jd_wxgame.js
+  Script: jd_wxgame.js
   TimeOut: 0
   Wait: 5
 - Container:
- - []
+  - []
   Env: jd_wxGameActivity_activityUrl
   KeyWord:
   - - jd_wxGameActivity_activityUrl
   Name: 游戏赢大礼（超级无线/超级会员）
-  Script:jd_wxGameActivity.js
+  Script: jd_wxGameActivity.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_wxKnowledgeActivity_activityUr
+  Env: jd_wxKnowledgeActivity_activityUrl
   KeyWord:
   - - jd_wxKnowledgeActivity_activityUrl
   Name: 知识超人（超级无线/超级会员）
-  Script:jd_wxKnowledgeActivity.j
+  Script: jd_wxKnowledgeActivity.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_wxMcLevelAndBirthGifts_activity
+  Env: jd_wxMcLevelAndBirthGifts_activityId
   KeyWord:
   - - jd_wxMcLevelAndBirthGifts_activityId
   Name: 生日礼包/会员等级礼包（超级会员）
-  Script:jd_wxMcLevelAndBirthGifts.
+  Script: jd_wxMcLevelAndBirthGifts.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -642,7 +642,7 @@ js_config:
   KeyWord:
   - - jd_wxSecond_activityId
   Name: 读秒拼手速（超级无线）
-  Script:jd_wxSecond.js
+  Script: jd_wxSecond.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -651,16 +651,16 @@ js_config:
   KeyWord:
   - - jd_wxShareActivity_activityId
   Name: 分享有礼（超级无线）
-  Script:jd_wxShareActivity.js
+  Script: jd_wxShareActivity.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_wxShopFollowActivity_activityU
+  Env: jd_wxShopFollowActivity_activityUrl
   KeyWord:
   - - jd_wxShopFollowActivity_activityUrl
   Name: 关注店铺有礼（超级无线/超级会员）
-  Script:jd_wxShopFollowActivity.j
+  Script: jd_wxShopFollowActivity.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -669,7 +669,7 @@ js_config:
   KeyWord:
   - - jd_wxShopGift_activityUrl
   Name: 店铺礼包（超级无线/超级会员）
-  Script:jd_wxShopGift.js
+  Script: jd_wxShopGift.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -681,7 +681,7 @@ js_config:
   - - jd_wxSign_sign_cjhy_Ids
   - - jd_wxSign_sevenDay_cjhy_Ids
   Name: 批量店铺签到（超级无线/超级会员）
-  Script:jd_wxSign.js
+  Script: jd_wxSign.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -693,7 +693,7 @@ js_config:
   - - jd_wxSignPoint_sign_cjhy_Ids
   - - jd_wxSignPoint_sevenDay_cjhy_Ids
   Name: 批量店铺积分签到（超级无线/超级会员
-  Script:jd_wxSignPoint.js
+  Script: jd_wxSignPoint.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -702,15 +702,15 @@ js_config:
   KeyWord:
   - - jd_wxTeam_activityUrl
   Name: 组队瓜分奖品（超级无线/超级会员）
-  Script:jd_wxTeam.js
+  Script: jd_wxTeam.js
   TimeOut: 0
   Wait: 5
 - Container:
   - []
-  Env: jd_wxUnPackingActivity_activityI
+  Env: jd_wxUnPackingActivity_activityId
   KeyWord:
   - - jd_wxUnPackingActivity_activityId
   Name: 让福袋飞（超级无线）
-  Script:jd_wxUnPackingActivity.j
+  Script: jd_wxUnPackingActivity.js
   TimeOut: 0
   Wait: 5
