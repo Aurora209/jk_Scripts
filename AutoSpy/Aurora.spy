@@ -446,11 +446,38 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Env: jd_pro_lottery_id
+  KeyWord:
+  - - jd_pro_lottery_id
+  Name: PRO抽奖机抽奖
+  Script: jd_pro_lottery.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_pro_lottery_task_id 
+  KeyWord:
+  - - jd_pro_lottery_task_id 
+  Name: PRO抽奖机抽奖任务
+  Script: jd_pro_lottery_task.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
   Env: jd_prodev_actCode
   KeyWord:
   - - jd_prodev_actCode
   Name: 邀请好友入会得好礼
   Script: jd_prodev.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
+  Env: jd_sendbeans_url
+  KeyWord:
+  - - jd_sendbeans_url
+  Name: 翻牌签到
+  Script: jd_sendbeans.js
   TimeOut: 0
   Wait: 5
 - Container:
