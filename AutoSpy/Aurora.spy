@@ -410,6 +410,15 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Env: jd_opencard_shopleague_id
+  KeyWord:
+  - - jd_opencard_shopleague_id
+  Name: 超店会员福利社 通用开卡
+  Script: jd_opencard_shopleague.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - []
   Env: DPLHTY
   KeyWord:
   - - DPLHTY
